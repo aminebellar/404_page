@@ -54,3 +54,14 @@ button:hover {
   background-color: rgb(70, 70, 116);
   transition: all 0.5s ease-in;
 }
+@media screen and (max-width: 600px) { 
+  *{
+    background-color: orange;
+  }
+  header nav{
+    justify-content: center;
+  }
+  .infos {
+    text-align: center;
+  }
+} 
